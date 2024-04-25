@@ -1,2 +1,11 @@
-package models;public class ParkingFloor {
+package models;
+
+import java.util.List;
+
+public class ParkingFloor {
+    private int id;
+    private int number;
+    private List<ParkingSpot> parkingSpots;
+    private Status status;
+
 }

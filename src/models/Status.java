@@ -1,2 +1,6 @@
-package models;public class Status {
+package models;
+
+public enum Status {
+    FULL,
+    EMPTY
 }

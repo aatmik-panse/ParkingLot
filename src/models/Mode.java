@@ -1,2 +1,8 @@
-package models;public class Mode {
+package models;
+
+public enum Mode {
+    CASH,
+    CC,
+    DC,
+    UPI
 }

@@ -1,2 +1,7 @@
-package models;public class GateType {
+package models;
+
+public enum GateType {
+    ENTRY,
+    EXIT
+
 }
