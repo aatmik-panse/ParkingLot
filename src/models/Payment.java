@@ -1,12 +1,13 @@
 package models;
-import java.sql.Time;
+import models.enums.PaymentMode;
+import models.status.PaymentStatus;
 
-public class Payment {
-    private int id;
-    private Bill bill;
-    private Mode mode;
-    private Status status;
-    private Time time;
+import java.util.Date;
+
+public class Payment extends BaseModel{
+    private PaymentMode mode;
+    private PaymentStatus status;
+    private Date time;
     private double amount;
 
 }

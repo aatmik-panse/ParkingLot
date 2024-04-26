@@ -1,12 +1,14 @@
 package models;
 
+import models.enums.VehicleType;
+import models.status.GateStatus;
+
 import java.util.List;
 
-public class ParkingSpot {
-    private int id;
-    private int number ;
+public class ParkingSpot extends BaseModel{
+    private int spotNumber ;
     private List<VehicleType> vehicles;
-    private Status status;
+    private GateStatus status;
     private ParkingFloor parkingFloor;
 
 }

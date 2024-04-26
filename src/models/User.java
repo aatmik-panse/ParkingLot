@@ -1,7 +1,7 @@
 package models;
 
-public class User {
-    private int id;
+public class User extends BaseModel{
+
     private String name;
     private String email;
     private String phone;

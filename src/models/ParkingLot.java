@@ -1,12 +1,13 @@
 package models;
 
+import models.status.ParkingLotStatus;
+
 import java.util.List;
 
-public class ParkingLot {
-    private int id;
+public class ParkingLot extends BaseModel{
     private List<ParkingFloor> parkingFloors;
     private List<Gate> gates;
-    private Status status;
+    private List<Vehicle> vehicles;
 
-
+    private ParkingLotStatus status;
 }

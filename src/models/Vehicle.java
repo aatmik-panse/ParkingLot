@@ -1,7 +1,9 @@
 package models;
 
-public class Vehicle {
-    private int id;
+import models.enums.VehicleType;
+
+public class Vehicle extends BaseModel{
+
     private int number;
     private VehicleType vehicleType;
     private User owner;
